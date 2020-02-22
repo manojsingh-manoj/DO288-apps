@@ -13,7 +13,7 @@ echo "---> Installing application source"
 
 cp -Rf /tmp/src/*.html ./
 
-DATE = `date "+%m %d %Y @ %H %M %S %P"`
+DATE=`date "+%m %d %Y @ %H %M %S %P"`
 echo "Page built on $DATE" >> ./info.html
 echo "Proudly server by Apache httpd server version $HTTPD_VERSION" >> ./info.html 
 
