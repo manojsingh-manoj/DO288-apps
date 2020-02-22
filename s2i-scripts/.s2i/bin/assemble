@@ -12,6 +12,7 @@ config_s2i
 echo "---> Installing application source"
 
 cp -Rf /tmp/src/*.html ./
+echo "print('Hello World from PYTHON =====================')" >> ./miller.py
 
 DATE=`date "+%m %d %Y @ %H %M %S %P"`
 echo "Page built on $DATE" >> ./info.html
